@@ -1,4 +1,4 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
+<beans xmlns="http://www.springframework.org/schema/beans"  
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
     xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
     xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
@@ -8,6 +8,8 @@
     <context:component-scan base-package="test" />
  
     <bean id="helloWorldService" class="test.HelloWorld">
-        <property name="name" value="Paweł Florczak" />
+        <property name="name" value="Jan Nowak"/>
+        <property name="age" value="18"/>
+        <property name="address" value="Ćwikłowa 6, Mińsk Mazowiecki"/>
     </bean>
 </beans>
